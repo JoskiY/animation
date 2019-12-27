@@ -1,0 +1,48 @@
+.ease {
+    background-color: red;
+    border-radius:7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+.ease:hover {
+    transition: 1s easy;
+    width: 100%;
+}
+.ease-in{
+    background-color: red;
+    border-radius:7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+.ease-in:hover {
+    transition: 1s ease-in;
+    width: 100%;
+}
+.ease-out{
+    background-color: red;
+    border-radius:7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+.ease-out:hover {
+    transition: 1s ease-in-out;
+    width: 100%;
+}
+.linear{
+    background-color: red;
+    border-radius:7px;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin: 10px;
+}
+.linear:hover {
+    transition: 1s linear;
+    width: 100%;
+}
